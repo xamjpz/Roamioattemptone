@@ -2,6 +2,31 @@ html{
     background-color: burlywood;
 }
 
+nav {
+    background-color: cadetblue;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display:inline;
+    margin-right: 20px;
+}
+
+nav li{
+    display:inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: aquamarine;
+    text-decoration: dashed;
+}
+
 body{
     background-color: bisque;
     text-align:center;
@@ -11,3 +36,30 @@ h1{
     color: brown;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* centers the gallery */
+}
+
+div.gallery-item {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+    border-radius: 15px;  /* Rounded corners on the box */
+    overflow: hidden;     /* Clips the image so it fits inside rounded box */
+}
+
+div.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;  /* Rounded corners on the image */
+    display: block;       /* Removes small space below image */
+}
+
+div.gallery-item div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
