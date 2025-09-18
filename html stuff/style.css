@@ -63,3 +63,42 @@ div.gallery-item div.desc {
     text-align: center;
 }
 
+.container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "menu"
+    "content"
+    "footer";
+
+  gap: 5px;
+  background-color: #2196F3;
+  padding: 5px;
+
+  max-width: 800px;
+  margin: 0 auto;
+}
+.container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 100px;
+}
+.container > div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container > div.menu {
+  grid-area: menu;
+}
+.container > div.content {
+  grid-area: content;
+}
+.container > div.footer {
+  grid-area: footer;
+}
+
+  button {
+    font-size: 20px;       /* Bigger text */
+    padding: 15px 30px;    /* More space inside the button */
+    width: 200px;          /* Optional: fixed width */
+    height: 60px;          /* Optional: fixed height */
+  }
