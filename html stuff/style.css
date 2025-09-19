@@ -63,21 +63,35 @@ div.gallery-item div.desc {
     text-align: center;
 }
 
+
+
+
 .container {
-  display: grid;
-  grid-template-areas:
-    "header"
-    "menu"
-    "content"
-    "footer";
-
-  gap: 5px;
-  background-color: #2196F3;
-  padding: 5px;
-
-  max-width: 800px;
-  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
 }
+
+.question-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #ccc;
+  padding: 10px;
+  width: 300px;
+}
+
+.question-block p {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+
+
+
 .container > div {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 100px;
@@ -97,10 +111,41 @@ div.gallery-item div.desc {
 }
 
 
-  button {
-    font-size: 20px;       /* Bigger text */
-    padding: 15px 30px;    /* More space inside the button */
-    width: 200px;          /* Optional: fixed width */
-    height: 60px;          /* Optional: fixed height */
-  }
+
+
+.button-wrapper {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #2196F3; /* Match your theme */
+}
+
+
+button {
+  font-size: 20px;
+  padding: 15px 30px;
+  width: 200px;
+  height: 60px;
+  background-color: #56585a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.question-button {
+  white-space: normal;         /* Allows text to wrap */
+  padding: 10px 20px;          /* Adjust padding as needed */
+  font-size: 16px;             /* Smaller font if needed */
+  width: auto;                 /* Let it size naturally */
+  max-width: 100%;             /* Prevent overflow */
+  box-sizing: border-box;      /* Include padding in width */
+}
+
+
+button:hover {
+  background-color: #d9dadc;
+}
+
 
