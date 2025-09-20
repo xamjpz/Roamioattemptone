@@ -70,6 +70,7 @@ div.gallery-item div.desc {
   display: flex;
   gap: 10px;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap; /* allows wrapping on smaller screens */
 }
 
@@ -124,7 +125,7 @@ div.gallery-item div.desc {
 button {
   font-size: 20px;
   padding: 15px 30px;
-  width: 200px;
+  width: 350px;
   height: 60px;
   background-color: #56585a;
   color: white;
@@ -138,7 +139,7 @@ button {
   white-space: normal;         /* Allows text to wrap */
   padding: 10px 20px;          /* Adjust padding as needed */
   font-size: 16px;             /* Smaller font if needed */
-  width: auto;                 /* Let it size naturally */
+  width: 150;                 /* Let it size naturally */
   max-width: 100%;             /* Prevent overflow */
   box-sizing: border-box;      /* Include padding in width */
 }
