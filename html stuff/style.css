@@ -44,10 +44,10 @@ div.gallery {
 }
 
 div.gallery-item {
-    margin: 5px;
+    margin: 1px;
     border: 1px solid #ccc;
     width: 180px;
-    border-radius: 15px;  /* Rounded corners on the box */
+    border-radius: 5px;  /* Rounded corners on the box */
     overflow: hidden;     /* Clips the image so it fits inside rounded box */
 }
 
@@ -59,7 +59,7 @@ div.gallery-item img {
 }
 
 div.gallery-item div.desc {
-    padding: 15px;
+    padding: 5px;
     text-align: center;
 }
 
