@@ -3,7 +3,7 @@ html{
 }
 
 nav {
-    background-color: cadetblue;
+    background-color: rgb(189, 166, 113);
 }
 
 nav ul {
@@ -23,7 +23,7 @@ nav li{
 }
 
 nav a {
-    color: aquamarine;
+    color: rgb(211, 193, 103);
     text-decoration: dashed;
 }
 
@@ -118,7 +118,7 @@ div.gallery-item div.desc {
   text-align: center;
   margin-top: 40px;
   padding: 20px;
-  background-color: #2196F3; /* Match your theme */
+  background-color: #f3d021; /* Match your theme */
 }
 
 
@@ -127,7 +127,7 @@ button {
   padding: 15px 30px;
   width: 350px;
   height: 60px;
-  background-color: #56585a;
+  background-color: #641e1e;
   color: white;
   border: none;
   border-radius: 8px;
